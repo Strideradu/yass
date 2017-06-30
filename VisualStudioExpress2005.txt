@@ -1,0 +1,59 @@
+Howto compile x64 binaries for windows using VC++2005 Express :
+---------------------------------------------------------------
+
+
+
+(1) you need to install 
+
+(a) Visual Studio Express 2005 (aka version 8), 
+    that only provides the WIN32 compiler 
+
+(b) the Microsoft Platform SDK 2003 (tried with the current R2) 
+    that provides a x64 compiler.
+
+both are "free" : the Platform SDK 2003 "R2" needs a genuine XP licence.
+
+---
+
+(2) Go to  "Start" -> "All programs" ->
+           "Microsoft Platform SDK for Windows Server 2003 ..." -> 
+           "Visual Studio Registration" -> 
+           "Register PSDK Directories with Visual Studio"
+
+(3) (a) Go to  "Start" -> "All programs" ->
+             "Microsoft Platform SDK for Windows Server 2003 ..." ->
+             "Open Build Environment ..." -> 
+        And  choose the correct x64 platform needed (for example x64 XP retail)
+
+    (b) a terminal should start, 
+        from it go to the correct Visual Studio IDE Directory 
+        (command line rulez): 
+
+    cd .. ; 
+    cd Microsoft Visual Studio 8 ; 
+    cd Common7 ; 
+    cd IDE ;
+
+    (c) then start
+
+    "VCExpress.exe /useenv", 
+
+    it should start with the correct 
+    "Tools"->"Options"->"Projects and Solutions"->"VC++ Directories" 
+    linking the "Microsoft Platform SDK 2003"
+
+
+
+(4 and End) 
+
+   (a) now open the "VisualStutio2005" Project, 
+       choose the correct "x86" -> "x64" parameter, 
+       (you dont care about the Win32 platform that is 
+        unremovable from VCExpress, the compiler is now 
+        correctly set to the WIN64)
+
+   (b)  Compile the project in VS2005 : ("F7" shortcut) 
+
+(5) dont forget to unregister (see step 2) and restart VCStudio
+    if you need to use the original VCStudioExpress WIN32 compiler 
+    after that ...

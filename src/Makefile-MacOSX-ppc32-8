@@ -1,0 +1,24 @@
+CC       = gcc
+STRIP    = strip
+CFLAGS   = -m32 -Wall -ansi -pedantic -pipe -O3 -combine -funroll-loops -fomit-frame-pointer -fstrict-aliasing -fno-tree-pre -falign-loops -DPACKAGE_NAME=\"yass\" -DPACKAGE_VERSION=\"1.14\" -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE
+CFLAGS  += -DTHREAD_FORWARD_REVERSE
+CFLAGS  += -DTHREAD_ASSEMBLE_ALIGN
+CFLAGS  += -DTHREAD_QUERY_CHUNK
+CFLAGS  +=  -arch ppc -mtune=G5 -fast -mmacosx-version-min=10.4
+LDFLAGS  = -lm
+LDFLAGS += -lpthread
+SOURCES  = align.c assemble.c avl.c display.c global_var.c \
+           kword.c list.c main.c prdyn.c proba.c red_black.c      \
+           regroup.c threads.c tuple.c util.c
+OBJECTS  = align.o assemble.o avl.o display.o global_var.o \
+           kword.o list.o main.o prdyn.o proba.o red_black.o      \
+           regroup.o threads.o tuple.o util.o
+
+all : clean  yass-MacOSX-ppc32-8threads.bin
+
+yass-MacOSX-ppc32-8threads.bin : $(OBJECTS)
+	 $(CC) $(CFLAGS) $(LDFLAGS) $(OBJECTS) -o $@
+	 $(STRIP) yass-MacOSX-ppc32-8threads.bin 
+
+clean :
+	 rm -f *.o yass-MacOSX-ppc32-8threads.bin
