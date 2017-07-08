@@ -179,6 +179,7 @@ long int Assemble_Single(/*in*/ char *data, /*in*/ long int datasize, Feature *f
     STATS_ADD_CLOCK(f, clock_pre);
 
     /* for each pos */
+    // @nan maybe we just print tuples and should be right for us?
     for (f->i_current = 0; f->i_current < datasize; f->i_current++) {
         /* for each seed */
         long int seed;
@@ -239,6 +240,7 @@ long int Assemble_Single(/*in*/ char *data, /*in*/ long int datasize, Feature *f
                         }
                       diag_start:
 #endif
+
 
                         while (delta_diagonal < 2 * gp_delta_stat + 1) {
 
