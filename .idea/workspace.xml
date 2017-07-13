@@ -11,10 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36a5a95b-b6f6-4cfa-98ee-b73cb752df8f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assemble.c" afterPath="$PROJECT_DIR$/src/assemble.c" />
-    </list>
+    <list default="true" id="36a5a95b-b6f6-4cfa-98ee-b73cb752df8f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,7 +36,7 @@
       <file leaf-file-name="align.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/align.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2093">
+            <state relative-caret-position="16443">
               <caret line="609" column="9" lean-forward="false" selection-start-line="609" selection-start-column="9" selection-end-line="609" selection-end-column="9" />
               <folding />
             </state>
@@ -49,7 +46,7 @@
       <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4118">
+            <state relative-caret-position="21087">
               <caret line="781" column="28" lean-forward="false" selection-start-line="781" selection-start-column="16" selection-end-line="781" selection-end-column="31" />
               <folding />
             </state>
@@ -59,8 +56,8 @@
       <file leaf-file-name="assemble.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/assemble.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-815">
-              <caret line="138" column="0" lean-forward="true" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+            <state relative-caret-position="-3780">
+              <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
               <folding>
                 <element signature="e#6484#6650#0" expanded="true" />
                 <element signature="e#6944#7105#0" expanded="true" />
@@ -76,8 +73,8 @@
       <file leaf-file-name="kword.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kword.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1998">
-              <caret line="760" column="17" lean-forward="true" selection-start-line="760" selection-start-column="17" selection-end-line="760" selection-end-column="17" />
+            <state relative-caret-position="20520">
+              <caret line="760" column="17" lean-forward="false" selection-start-line="760" selection-start-column="17" selection-end-line="760" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -86,7 +83,7 @@
       <file leaf-file-name="proba.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/proba.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1147">
+            <state relative-caret-position="2322">
               <caret line="86" column="42" lean-forward="false" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="43" />
               <folding />
             </state>
@@ -410,21 +407,23 @@
       <workItem from="1498847813763" duration="3109000" />
       <workItem from="1499295991115" duration="595000" />
       <workItem from="1499354846005" duration="4618000" />
+      <workItem from="1499883604254" duration="1807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8322000" />
+    <option name="totallyTimeSpent" value="10129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1402" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15925926" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983023" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32983023" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -450,6 +449,77 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/align.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16443">
+          <caret line="609" column="9" lean-forward="false" selection-start-line="609" selection-start-column="9" selection-end-line="609" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21087">
+          <caret line="781" column="28" lean-forward="false" selection-start-line="781" selection-start-column="16" selection-end-line="781" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kword.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20520">
+          <caret line="760" column="17" lean-forward="true" selection-start-line="760" selection-start-column="17" selection-end-line="760" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proba.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2322">
+          <caret line="86" column="42" lean-forward="false" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/global_var.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2241">
+          <caret line="83" column="26" lean-forward="false" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="66" column="8" lean-forward="false" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assemble.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3726">
+          <caret line="138" column="0" lean-forward="true" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding>
+            <element signature="e#6484#6650#0" expanded="true" />
+            <element signature="e#6944#7105#0" expanded="true" />
+            <element signature="e#7453#8565#0" expanded="true" />
+            <element signature="e#9137#9204#0" expanded="true" />
+            <element signature="e#9396#9463#0" expanded="true" />
+            <element signature="e#14908#14950#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -618,7 +688,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/align.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2093">
+        <state relative-caret-position="16443">
           <caret line="609" column="9" lean-forward="false" selection-start-line="609" selection-start-column="9" selection-end-line="609" selection-end-column="9" />
           <folding />
         </state>
@@ -626,7 +696,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/proba.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1147">
+        <state relative-caret-position="2322">
           <caret line="86" column="42" lean-forward="false" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="43" />
           <folding />
         </state>
@@ -634,15 +704,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kword.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1998">
-          <caret line="760" column="17" lean-forward="true" selection-start-line="760" selection-start-column="17" selection-end-line="760" selection-end-column="17" />
+        <state relative-caret-position="20520">
+          <caret line="760" column="17" lean-forward="false" selection-start-line="760" selection-start-column="17" selection-end-line="760" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4118">
+        <state relative-caret-position="21087">
           <caret line="781" column="28" lean-forward="false" selection-start-line="781" selection-start-column="16" selection-end-line="781" selection-end-column="31" />
           <folding />
         </state>
@@ -650,8 +720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assemble.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-815">
-          <caret line="138" column="0" lean-forward="true" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        <state relative-caret-position="-3780">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
           <folding>
             <element signature="e#6484#6650#0" expanded="true" />
             <element signature="e#6944#7105#0" expanded="true" />
