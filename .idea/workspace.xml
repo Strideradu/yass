@@ -11,7 +11,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36a5a95b-b6f6-4cfa-98ee-b73cb752df8f" name="Default" comment="" />
+    <list default="true" id="36a5a95b-b6f6-4cfa-98ee-b73cb752df8f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/main.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/main.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/yass.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/yass.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/display.c" afterPath="$PROJECT_DIR$/src/display.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.c" afterPath="$PROJECT_DIR$/src/main.c" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,18 +52,28 @@
       <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21087">
-              <caret line="781" column="28" lean-forward="false" selection-start-line="781" selection-start-column="16" selection-end-line="781" selection-end-column="31" />
+            <state relative-caret-position="259">
+              <caret line="1201" column="22" lean-forward="true" selection-start-line="1201" selection-start-column="4" selection-end-line="1201" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="assemble.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="display.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/display.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="53" column="5" lean-forward="false" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assemble.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assemble.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3780">
-              <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+            <state relative-caret-position="864">
+              <caret line="294" column="113" lean-forward="true" selection-start-line="294" selection-start-column="113" selection-end-line="294" selection-end-column="113" />
               <folding>
                 <element signature="e#6484#6650#0" expanded="true" />
                 <element signature="e#6944#7105#0" expanded="true" />
@@ -119,9 +135,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/align.c" />
-        <option value="$PROJECT_DIR$/src/main.c" />
         <option value="$PROJECT_DIR$/src/kword.c" />
         <option value="$PROJECT_DIR$/src/assemble.c" />
+        <option value="$PROJECT_DIR$/src/main.c" />
+        <option value="$PROJECT_DIR$/src/display.c" />
       </list>
     </option>
   </component>
@@ -179,12 +196,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yass" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmake-build-debug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-debug" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nan\Documents\GitHub\yass\cmake-build-debug" />
+      <recent name="C:\Users\Nan\Documents\GitHub\yass\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -385,7 +423,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="yass" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="yass" TARGET_NAME="yass" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="yass" RUN_TARGET_NAME="yass">
+    <configuration default="false" name="yass" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="missing_query_001.fasta missing_target_001.fasta" PASS_PARENT_ENVS_2="true" PROJECT_NAME="yass" TARGET_NAME="yass" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="yass" RUN_TARGET_NAME="yass">
       <envs />
       <method />
     </configuration>
@@ -397,6 +435,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="36a5a95b-b6f6-4cfa-98ee-b73cb752df8f" name="Default" comment="" />
@@ -407,12 +448,12 @@
       <workItem from="1498847813763" duration="3109000" />
       <workItem from="1499295991115" duration="595000" />
       <workItem from="1499354846005" duration="4618000" />
-      <workItem from="1499883604254" duration="1807000" />
+      <workItem from="1499883604254" duration="4686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10129000" />
+    <option name="totallyTimeSpent" value="13008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1402" extended-state="6" />
@@ -710,18 +751,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21087">
-          <caret line="781" column="28" lean-forward="false" selection-start-line="781" selection-start-column="16" selection-end-line="781" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assemble.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3780">
-          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        <state relative-caret-position="864">
+          <caret line="294" column="113" lean-forward="true" selection-start-line="294" selection-start-column="113" selection-end-line="294" selection-end-column="113" />
           <folding>
             <element signature="e#6484#6650#0" expanded="true" />
             <element signature="e#6944#7105#0" expanded="true" />
@@ -730,6 +763,22 @@
             <element signature="e#9396#9463#0" expanded="true" />
             <element signature="e#14908#14950#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="1201" column="22" lean-forward="true" selection-start-line="1201" selection-start-column="4" selection-end-line="1201" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/display.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="53" column="5" lean-forward="false" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

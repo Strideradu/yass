@@ -1203,12 +1203,12 @@ int main(int argc, char *argv[]) {
 
 
 #ifdef STATS
-    gv_time_spent = time(NULL) - gv_time_spent;
+    //gv_time_spent = time(NULL) - gv_time_spent;
 #endif
 
 
-    Display_Params();
-    Display_Stats();
+    //Display_Params();
+    //Display_Stats();
 
     return 0;
 }
