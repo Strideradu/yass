@@ -598,7 +598,7 @@ static void ParseParams(int argc, char **argv, long int *i) {
         usage();
     else if (!strcmp(argv[*i], "-d") || !strcmp(argv[*i], "--display"))
         parselint(argc, argv, i,
-                  &gp_display, 0, 5);
+                  &gp_display, 0, 6);
     else if (!strcmp(argv[*i], "-r") || !strcmp(argv[*i], "--reverse"))
         parselint(argc, argv, i,
                   &gp_reverse, 0, 2);
