@@ -119,7 +119,7 @@ long int initialise_deltashift() {
 
 
 long int Assemble_Single(/*in*/ char *data, /*in*/ long int datasize, Feature *f) {
-
+    fprintf(OUTSTREAM, "Single");
     /* main variables
      * for the linked list computation
      */
@@ -471,7 +471,7 @@ long int Assemble_Single(/*in*/ char *data, /*in*/ long int datasize, Feature *f
 long int Assemble_SingleRev(/*in*/   char *datarev, /*in*/  char *data, /*in*/ long int datasize,
                                      Feature *f) {
 
-
+    fprintf(OUTSTREAM, "Single_Rev");
 
     /* main variables */
     /* for the linked list computation */
@@ -822,6 +822,8 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
                               long int *chunksize_text,
                               long int *chunkstrt_text,
                               Feature *f) {
+    fprintf(OUTSTREAM, "Multiple\n");
+
     /* used for chunk selection */
     long int i_base = 0;
     long int max_chunk_datasize_text = 0;
@@ -1141,12 +1143,38 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
 #else
                             i_previous = index = keylist_query[seed][index];
 #endif
+
+
                         } /* while (index != indexfin) */
                     } /* if (code >= 0) */
                 }
             }/* for each seed */
 
+            // try iterate through all tuples
+            tuplelist *tl_ = NULL, *tl_prev_ = NULL, *tl_last_;
+            tuple *t_ = NULL;
 
+            //volatile long int i_current = f->i_current;
+            tl_prev_ = tl_ = f->first_tl;
+            tl_last_ = f->last_tl;
+
+            while (tl_ != NULL) {
+                t_ = tl_->first_tuple;
+                int number_of_tuples = 0;
+                while (t_ != NULL) {
+                    number_of_tuples++;
+                    fprintf(OUTSTREAM, "%ld\t%ld\t%ld\t\n",
+                            t_->occurrence,
+                            t_->diagonal,
+                            t_->leftsize);
+                    t_ = t_->next;
+                }
+
+                //nexttuplelist:
+                tl_prev_ = tl_;
+                tl_ = tl_->next;
+            }
+            //fprintf(OUTSTREAM, "%ld\n", number_of_tuples);
 
             if (!(f->i_current % ALIGN_EVERY_NB_ITER)) {
 #ifdef TRACE
@@ -1217,6 +1245,9 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
 #ifdef CACHE
     FREE(last_tuple_pos_with_diag_hash ,((1 + HASH_DIAG(MEMOPT_TABSIZE)) * sizeof(long int));
 #endif
+
+
+
 
     FREE_TAB(last_tuple_pos_with_diag, sizeof(long int));
     FREE_TAB(last_tuple_ptr_with_diag, sizeof(tuple *));

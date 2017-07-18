@@ -378,6 +378,8 @@ void Display_Alignements(MA *first_MA) {
                 /* (3.1) fasta name */
                 fprintf(OUTSTREAM, "%s\t%s\t", gp_chunkname_query[ma->j_chunk],
                         gp_chunkname_text[ma->i_chunk]);
+
+                fprintf(OUTSTREAM, "\n");
                 break;
 
 

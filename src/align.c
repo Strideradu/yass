@@ -630,6 +630,7 @@ long int AlignAndFree(
 
 
     /*[a] tuplelists start  */
+    // tuple list
     volatile long int i_current = feature->i_current;
     tl_prev_ = tl_ = feature->first_tl;
     tl_last_ = feature->last_tl;
