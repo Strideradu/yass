@@ -29,29 +29,29 @@
 #include "threads.h"
 
 long int initialise_deltashift();
+
 long int Assemble_Single( /*in */ char *data, /*in */ long int datasize,
-			  Feature  *f
-			  );
+                                  Feature *f
+);
+
 long int Assemble_SingleRev( /*in */ char *datarev, /*in */ char *data, /*in */long int datasize,
-			     Feature  *f
-			     );
+                                     Feature *f
+);
 
 
 long int Assemble_Double( /*in */ char *data_query, /*in */ long int datasize_query,
-                          /*in */ char *data_text,  /*in */ long int datasize_text,
-			          long int reverse_repeat,
-                          /*out*/ MA **first_MA , /*out*/ MA **last_MA);
+        /*in */ char *data_text,  /*in */ long int datasize_text,
+                                  long int reverse_repeat,
+        /*out*/ MA **first_MA, /*out*/ MA **last_MA);
 
 long int MultiAssemble_Double( /*in */ char *data_query,        /*in */ long int datasize_query,
-			       /*in */ char *data_text,         /*in */ long int datasize_text,
-			       /*in */ long int nbchunks_text,  /*in */ char **chunkname_text,
-			       /*in */ long int *chunksize_text,/*in */ long int *chunkstrt_text,
-			       Feature  *f);
+        /*in */ char *data_text,         /*in */ long int datasize_text,
+        /*in */ long int nbchunks_text,  /*in */ char **chunkname_text,
+        /*in */ long int *chunksize_text,/*in */ long int *chunkstrt_text,
+                                       Feature *f);
 
 
-
-
-#define SINGLEHITDIAGONAL(data_query,data_query_size,data_text,data_text_size) {                      \
+#define SINGLEHITDIAGONAL(data_query, data_query_size, data_text, data_text_size) {                      \
   long int j_last =  GET_TAB_MIN(last_tuple_pos_with_diag,diagonal,f->i_current - gp_rho_stat);       \
   if (j_last < 0 || j_last < f->i_current -  gp_rho_stat ) {                                          \
     long int max_right_score = 0;                                                                     \
@@ -106,7 +106,7 @@ long int MultiAssemble_Double( /*in */ char *data_query,        /*in */ long int
 }
 
 
-#define SINGLEHITDIAGONAL_MULTI(data_query,data_query_size,data_text,data_text_size) {                \
+#define SINGLEHITDIAGONAL_MULTI(data_query, data_query_size, data_text, data_text_size) {                \
   long int j_last =  GET_TAB_MIN(last_tuple_pos_with_diag,diagonal,i_current_end - gp_rho_stat);      \
   if (j_last < 0 || j_last < i_current_end -  gp_rho_stat ) {                                         \
     long int max_right_score = 0;                                                                     \

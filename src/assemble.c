@@ -1150,31 +1150,7 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
                 }
             }/* for each seed */
 
-            // try iterate through all tuples
-            tuplelist *tl_ = NULL, *tl_prev_ = NULL, *tl_last_;
-            tuple *t_ = NULL;
 
-            //volatile long int i_current = f->i_current;
-            tl_prev_ = tl_ = f->first_tl;
-            tl_last_ = f->last_tl;
-
-            while (tl_ != NULL) {
-                t_ = tl_->first_tuple;
-                int number_of_tuples = 0;
-                while (t_ != NULL) {
-                    number_of_tuples++;
-                    fprintf(OUTSTREAM, "%ld\t%ld\t%ld\t\n",
-                            t_->occurrence,
-                            t_->diagonal,
-                            t_->leftsize);
-                    t_ = t_->next;
-                }
-
-                //nexttuplelist:
-                tl_prev_ = tl_;
-                tl_ = tl_->next;
-            }
-            //fprintf(OUTSTREAM, "%ld\n", number_of_tuples);
 
             if (!(f->i_current % ALIGN_EVERY_NB_ITER)) {
 #ifdef TRACE
@@ -1227,15 +1203,44 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
          * CREATE_THREAD(f->thread_align,thread_work_align,f);
          */
 
-        AlignAndFree(
-                data_query, datasize_query,
-                chunk_data_text, chunk_datasize_text,
-                1,
-                f);
-
-        STATS_ADD_CLOCK(f, clock_align);
-
+        /*
+        *AlignAndFree(
+        *        data_query, datasize_query,
+        *        chunk_data_text, chunk_datasize_text,
+        *        1,
+        *        f);
+        *
+        *STATS_ADD_CLOCK(f, clock_align);
+        */
     }/*end of  [4] (chunk loop) */
+
+    // try iterate through all tuples
+
+    tuplelist *tl_ = NULL, *tl_prev_ = NULL, *tl_last_;
+    tuple *t_ = NULL;
+
+    //volatile long int i_current = f->i_current;
+    tl_prev_ = tl_ = f->first_tl;
+    tl_last_ = f->last_tl;
+
+    while (tl_ != NULL) {
+        fprintf(OUTSTREAM, "print tuple group\n");
+        t_ = tl_->first_tuple;
+        int number_of_tuples = 0;
+        while (t_ != NULL) {
+            number_of_tuples++;
+            fprintf(OUTSTREAM, "%ld\t%ld\t%ld\t\n",
+                    t_->occurrence,
+                    t_->diagonal,
+                    t_->leftsize);
+            t_ = t_->next;
+        }
+
+        //nexttuplelist:
+        tl_prev_ = tl_;
+        tl_ = tl_->next;
+    }
+    //fprintf(OUTSTREAM, "%ld\n", number_of_tuples);
 
     /* >> */
     FREE(last_chunk_diag_used, LAST_CHUNK_DIAG_NB * sizeof(long int));
