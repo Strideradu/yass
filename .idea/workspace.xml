@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36a5a95b-b6f6-4cfa-98ee-b73cb752df8f" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/steup.py" afterPath="$PROJECT_DIR$/src/setup.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/prob_module.c" afterPath="$PROJECT_DIR$/src/prob_module.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,17 +51,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prob_module.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="prob_module.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/prob_module.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+            <state relative-caret-position="324">
+              <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/setup.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="81">
@@ -74,8 +74,8 @@
       <file leaf-file-name="proba.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/proba.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="51" column="6" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="51" selection-end-column="6" />
+            <state relative-caret-position="360">
+              <caret line="18" column="67" lean-forward="true" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -181,8 +181,8 @@
         <option value="$PROJECT_DIR$/cmake-build-debug/yass_manual" />
         <option value="$PROJECT_DIR$/cmake-build-debug/001.out" />
         <option value="$PROJECT_DIR$/prob_module.c" />
-        <option value="$PROJECT_DIR$/src/prob_module.c" />
         <option value="$PROJECT_DIR$/src/steup.py" />
+        <option value="$PROJECT_DIR$/src/prob_module.c" />
       </list>
     </option>
   </component>
@@ -467,12 +467,12 @@
       <workItem from="1500497051621" duration="6097000" />
       <workItem from="1500601750964" duration="2262000" />
       <workItem from="1500853902851" duration="895000" />
-      <workItem from="1500856061417" duration="3944000" />
+      <workItem from="1500856061417" duration="4219000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38540000" />
+    <option name="totallyTimeSpent" value="38815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1402" extended-state="6" />
@@ -991,14 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/proba.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="51" column="6" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="51" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/proba.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1011,18 +1003,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/prob_module.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proba.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="67" lean-forward="true" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prob_module.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
           <folding />
         </state>
       </provider>

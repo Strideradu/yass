@@ -26,7 +26,7 @@ static PyObject* stat_bound_func(PyObject* self, PyObject* args)
      */
 
     /* call cos from libm */
-    answer = statistical_bound_of_randomwalk2( pI, L, alpha);
+    answer = statistical_bound_of_randomwalk2(pI, L, alpha);
 
     /*  construct the output from cos, from c double to python float */
     return Py_BuildValue("l", answer);
