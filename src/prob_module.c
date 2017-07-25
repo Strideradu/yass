@@ -11,22 +11,23 @@
 /*  wrapped cosine function */
 static PyObject* stat_bound_func(PyObject* self, PyObject* args)
 {
-    double pI;
+    double p;
     long int L;
     double alpha;
 
     double value;
-    double answer;
+    long int answer;
 
     /*  parse the input, from python float to c double */
-    if (!PyArg_ParseTuple(args, "dld", &pI, &L, &alpha))
+    if (!PyArg_ParseTuple(args, "dld", &p, &L, &alpha))
         return NULL;
     /* if the above function returns -1, an appropriate Python exception will
      * have been set, and the function simply returns NULL
      */
 
     /* call cos from libm */
-    answer = statistical_bound_of_randomwalk2(pI, L, alpha);
+    answer = statistical_bound_of_randomwalk2(p, L, alpha);
+    //answer = p * k;
 
     /*  construct the output from cos, from c double to python float */
     return Py_BuildValue("l", answer);
