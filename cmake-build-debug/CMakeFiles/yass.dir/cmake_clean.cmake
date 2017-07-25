@@ -14,12 +14,13 @@ file(REMOVE_RECURSE
   "CMakeFiles/yass.dir/src/threads.c.o"
   "CMakeFiles/yass.dir/src/tuple.c.o"
   "CMakeFiles/yass.dir/src/util.c.o"
+  "CMakeFiles/yass.dir/src/PyYASS.cpp.o"
   "yass.pdb"
   "yass.exe"
   "libyass.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang C)
+foreach(lang C CXX)
   include(CMakeFiles/yass.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

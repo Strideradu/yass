@@ -123,6 +123,33 @@ yass/fast:
 	$(MAKE) -f CMakeFiles/yass.dir/build.make CMakeFiles/yass.dir/build
 .PHONY : yass/fast
 
+src/PyYASS.o: src/PyYASS.cpp.o
+
+.PHONY : src/PyYASS.o
+
+# target to build an object file
+src/PyYASS.cpp.o:
+	$(MAKE) -f CMakeFiles/yass.dir/build.make CMakeFiles/yass.dir/src/PyYASS.cpp.o
+.PHONY : src/PyYASS.cpp.o
+
+src/PyYASS.i: src/PyYASS.cpp.i
+
+.PHONY : src/PyYASS.i
+
+# target to preprocess a source file
+src/PyYASS.cpp.i:
+	$(MAKE) -f CMakeFiles/yass.dir/build.make CMakeFiles/yass.dir/src/PyYASS.cpp.i
+.PHONY : src/PyYASS.cpp.i
+
+src/PyYASS.s: src/PyYASS.cpp.s
+
+.PHONY : src/PyYASS.s
+
+# target to generate assembly for a file
+src/PyYASS.cpp.s:
+	$(MAKE) -f CMakeFiles/yass.dir/build.make CMakeFiles/yass.dir/src/PyYASS.cpp.s
+.PHONY : src/PyYASS.cpp.s
+
 src/align.o: src/align.c.o
 
 .PHONY : src/align.o
@@ -537,6 +564,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... yass"
+	@echo "... src/PyYASS.o"
+	@echo "... src/PyYASS.i"
+	@echo "... src/PyYASS.s"
 	@echo "... src/align.o"
 	@echo "... src/align.i"
 	@echo "... src/align.s"

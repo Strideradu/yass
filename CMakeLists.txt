@@ -35,6 +35,6 @@ set(SOURCE_FILES
         src/tuple.h
         src/util.c
         src/util.h
-        src/yass2blast.pl)
+        src/yass2blast.pl src/PyYASS.cpp)
 
 add_executable(yass ${SOURCE_FILES})

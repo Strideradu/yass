@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/User/Documents/GitHub/yass/src/PyYASS.cpp">
+			<Option target="yass"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/User/Documents/GitHub/yass/src/align.c">
 			<Option target="yass"/>
 		</Unit>
