@@ -1215,6 +1215,7 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
 
         // try iterate through all tuples
 
+
         tuplelist *tl_ = NULL, *tl_prev_ = NULL, *tl_last_;
         tuple *t_ = NULL;
 
@@ -1239,6 +1240,7 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
             tl_prev_ = tl_;
             tl_ = tl_->next;
         }
+        fprintf(OUTSTREAM, "\n");
         //fprintf(OUTSTREAM, "%ld\n", number_of_tuples);
 
     }/*end of  [4] (chunk loop) */
