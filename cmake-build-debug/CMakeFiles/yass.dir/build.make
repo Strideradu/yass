@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/User/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/Nan/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/User/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /cygdrive/c/Users/Nan/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/User/Documents/GitHub/yass
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Nan/Documents/GitHub/yass
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/yass.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/yass.dir/flags.make
 
 CMakeFiles/yass.dir/src/align.c.o: CMakeFiles/yass.dir/flags.make
 CMakeFiles/yass.dir/src/align.c.o: ../src/align.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/yass.dir/src/align.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/align.c.o   -c /cygdrive/c/Users/User/Documents/GitHub/yass/src/align.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/yass.dir/src/align.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/align.c.o   -c /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/align.c
 
 CMakeFiles/yass.dir/src/align.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yass.dir/src/align.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/User/Documents/GitHub/yass/src/align.c > CMakeFiles/yass.dir/src/align.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/align.c > CMakeFiles/yass.dir/src/align.c.i
 
 CMakeFiles/yass.dir/src/align.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yass.dir/src/align.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/User/Documents/GitHub/yass/src/align.c -o CMakeFiles/yass.dir/src/align.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/align.c -o CMakeFiles/yass.dir/src/align.c.s
 
 CMakeFiles/yass.dir/src/align.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/yass.dir/src/align.c.o.provides.build: CMakeFiles/yass.dir/src/align.
 
 CMakeFiles/yass.dir/src/assemble.c.o: CMakeFiles/yass.dir/flags.make
 CMakeFiles/yass.dir/src/assemble.c.o: ../src/assemble.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/yass.dir/src/assemble.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/assemble.c.o   -c /cygdrive/c/Users/User/Documents/GitHub/yass/src/assemble.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/yass.dir/src/assemble.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/assemble.c.o   -c /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/assemble.c
 
 CMakeFiles/yass.dir/src/assemble.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yass.dir/src/assemble.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/User/Documents/GitHub/yass/src/assemble.c > CMakeFiles/yass.dir/src/assemble.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/assemble.c > CMakeFiles/yass.dir/src/assemble.c.i
 
 CMakeFiles/yass.dir/src/assemble.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yass.dir/src/assemble.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/User/Documents/GitHub/yass/src/assemble.c -o CMakeFiles/yass.dir/src/assemble.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/assemble.c -o CMakeFiles/yass.dir/src/assemble.c.s
 
 CMakeFiles/yass.dir/src/assemble.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/yass.dir/src/assemble.c.o.provides.build: CMakeFiles/yass.dir/src/ass
 
 CMakeFiles/yass.dir/src/avl.c.o: CMakeFiles/yass.dir/flags.make
 CMakeFiles/yass.dir/src/avl.c.o: ../src/avl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/yass.dir/src/avl.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/avl.c.o   -c /cygdrive/c/Users/User/Documents/GitHub/yass/src/avl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/yass.dir/src/avl.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/avl.c.o   -c /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/avl.c
 
 CMakeFiles/yass.dir/src/avl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yass.dir/src/avl.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/User/Documents/GitHub/yass/src/avl.c > CMakeFiles/yass.dir/src/avl.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/avl.c > CMakeFiles/yass.dir/src/avl.c.i
 
 CMakeFiles/yass.dir/src/avl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yass.dir/src/avl.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/User/Documents/GitHub/yass/src/avl.c -o CMakeFiles/yass.dir/src/avl.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/avl.c -o CMakeFiles/yass.dir/src/avl.c.s
 
 CMakeFiles/yass.dir/src/avl.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/yass.dir/src/avl.c.o.provides.build: CMakeFiles/yass.dir/src/avl.c.o
 
 CMakeFiles/yass.dir/src/display.c.o: CMakeFiles/yass.dir/flags.make
 CMakeFiles/yass.dir/src/display.c.o: ../src/display.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/yass.dir/src/display.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/display.c.o   -c /cygdrive/c/Users/User/Documents/GitHub/yass/src/display.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/yass.dir/src/display.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/display.c.o   -c /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/display.c
 
 CMakeFiles/yass.dir/src/display.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yass.dir/src/display.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/User/Documents/GitHub/yass/src/display.c > CMakeFiles/yass.dir/src/display.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/display.c > CMakeFiles/yass.dir/src/display.c.i
 
 CMakeFiles/yass.dir/src/display.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yass.dir/src/display.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/User/Documents/GitHub/yass/src/display.c -o CMakeFiles/yass.dir/src/display.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/display.c -o CMakeFiles/yass.dir/src/display.c.s
 
 CMakeFiles/yass.dir/src/display.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/yass.dir/src/display.c.o.provides.build: CMakeFiles/yass.dir/src/disp
 
 CMakeFiles/yass.dir/src/global_var.c.o: CMakeFiles/yass.dir/flags.make
 CMakeFiles/yass.dir/src/global_var.c.o: ../src/global_var.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/yass.dir/src/global_var.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/global_var.c.o   -c /cygdrive/c/Users/User/Documents/GitHub/yass/src/global_var.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/yass.dir/src/global_var.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/global_var.c.o   -c /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/global_var.c
 
 CMakeFiles/yass.dir/src/global_var.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yass.dir/src/global_var.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/User/Documents/GitHub/yass/src/global_var.c > CMakeFiles/yass.dir/src/global_var.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/global_var.c > CMakeFiles/yass.dir/src/global_var.c.i
 
 CMakeFiles/yass.dir/src/global_var.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yass.dir/src/global_var.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/User/Documents/GitHub/yass/src/global_var.c -o CMakeFiles/yass.dir/src/global_var.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/global_var.c -o CMakeFiles/yass.dir/src/global_var.c.s
 
 CMakeFiles/yass.dir/src/global_var.c.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/yass.dir/src/global_var.c.o.provides.build: CMakeFiles/yass.dir/src/g
 
 CMakeFiles/yass.dir/src/kword.c.o: CMakeFiles/yass.dir/flags.make
 CMakeFiles/yass.dir/src/kword.c.o: ../src/kword.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/yass.dir/src/kword.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/kword.c.o   -c /cygdrive/c/Users/User/Documents/GitHub/yass/src/kword.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/yass.dir/src/kword.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/kword.c.o   -c /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/kword.c
 
 CMakeFiles/yass.dir/src/kword.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yass.dir/src/kword.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/User/Documents/GitHub/yass/src/kword.c > CMakeFiles/yass.dir/src/kword.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/kword.c > CMakeFiles/yass.dir/src/kword.c.i
 
 CMakeFiles/yass.dir/src/kword.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yass.dir/src/kword.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/User/Documents/GitHub/yass/src/kword.c -o CMakeFiles/yass.dir/src/kword.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/kword.c -o CMakeFiles/yass.dir/src/kword.c.s
 
 CMakeFiles/yass.dir/src/kword.c.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/yass.dir/src/kword.c.o.provides.build: CMakeFiles/yass.dir/src/kword.
 
 CMakeFiles/yass.dir/src/list.c.o: CMakeFiles/yass.dir/flags.make
 CMakeFiles/yass.dir/src/list.c.o: ../src/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/yass.dir/src/list.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/list.c.o   -c /cygdrive/c/Users/User/Documents/GitHub/yass/src/list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/yass.dir/src/list.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/list.c.o   -c /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/list.c
 
 CMakeFiles/yass.dir/src/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yass.dir/src/list.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/User/Documents/GitHub/yass/src/list.c > CMakeFiles/yass.dir/src/list.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/list.c > CMakeFiles/yass.dir/src/list.c.i
 
 CMakeFiles/yass.dir/src/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yass.dir/src/list.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/User/Documents/GitHub/yass/src/list.c -o CMakeFiles/yass.dir/src/list.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/list.c -o CMakeFiles/yass.dir/src/list.c.s
 
 CMakeFiles/yass.dir/src/list.c.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/yass.dir/src/list.c.o.provides.build: CMakeFiles/yass.dir/src/list.c.
 
 CMakeFiles/yass.dir/src/main.c.o: CMakeFiles/yass.dir/flags.make
 CMakeFiles/yass.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/yass.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/main.c.o   -c /cygdrive/c/Users/User/Documents/GitHub/yass/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/yass.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/main.c.o   -c /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/main.c
 
 CMakeFiles/yass.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yass.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/User/Documents/GitHub/yass/src/main.c > CMakeFiles/yass.dir/src/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/main.c > CMakeFiles/yass.dir/src/main.c.i
 
 CMakeFiles/yass.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yass.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/User/Documents/GitHub/yass/src/main.c -o CMakeFiles/yass.dir/src/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/main.c -o CMakeFiles/yass.dir/src/main.c.s
 
 CMakeFiles/yass.dir/src/main.c.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/yass.dir/src/main.c.o.provides.build: CMakeFiles/yass.dir/src/main.c.
 
 CMakeFiles/yass.dir/src/prdyn.c.o: CMakeFiles/yass.dir/flags.make
 CMakeFiles/yass.dir/src/prdyn.c.o: ../src/prdyn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/yass.dir/src/prdyn.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/prdyn.c.o   -c /cygdrive/c/Users/User/Documents/GitHub/yass/src/prdyn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/yass.dir/src/prdyn.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/prdyn.c.o   -c /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/prdyn.c
 
 CMakeFiles/yass.dir/src/prdyn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yass.dir/src/prdyn.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/User/Documents/GitHub/yass/src/prdyn.c > CMakeFiles/yass.dir/src/prdyn.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/prdyn.c > CMakeFiles/yass.dir/src/prdyn.c.i
 
 CMakeFiles/yass.dir/src/prdyn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yass.dir/src/prdyn.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/User/Documents/GitHub/yass/src/prdyn.c -o CMakeFiles/yass.dir/src/prdyn.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/prdyn.c -o CMakeFiles/yass.dir/src/prdyn.c.s
 
 CMakeFiles/yass.dir/src/prdyn.c.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/yass.dir/src/prdyn.c.o.provides.build: CMakeFiles/yass.dir/src/prdyn.
 
 CMakeFiles/yass.dir/src/proba.c.o: CMakeFiles/yass.dir/flags.make
 CMakeFiles/yass.dir/src/proba.c.o: ../src/proba.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/yass.dir/src/proba.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/proba.c.o   -c /cygdrive/c/Users/User/Documents/GitHub/yass/src/proba.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/yass.dir/src/proba.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/proba.c.o   -c /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/proba.c
 
 CMakeFiles/yass.dir/src/proba.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yass.dir/src/proba.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/User/Documents/GitHub/yass/src/proba.c > CMakeFiles/yass.dir/src/proba.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/proba.c > CMakeFiles/yass.dir/src/proba.c.i
 
 CMakeFiles/yass.dir/src/proba.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yass.dir/src/proba.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/User/Documents/GitHub/yass/src/proba.c -o CMakeFiles/yass.dir/src/proba.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/proba.c -o CMakeFiles/yass.dir/src/proba.c.s
 
 CMakeFiles/yass.dir/src/proba.c.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/yass.dir/src/proba.c.o.provides.build: CMakeFiles/yass.dir/src/proba.
 
 CMakeFiles/yass.dir/src/red_black.c.o: CMakeFiles/yass.dir/flags.make
 CMakeFiles/yass.dir/src/red_black.c.o: ../src/red_black.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/yass.dir/src/red_black.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/red_black.c.o   -c /cygdrive/c/Users/User/Documents/GitHub/yass/src/red_black.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/yass.dir/src/red_black.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/red_black.c.o   -c /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/red_black.c
 
 CMakeFiles/yass.dir/src/red_black.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yass.dir/src/red_black.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/User/Documents/GitHub/yass/src/red_black.c > CMakeFiles/yass.dir/src/red_black.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/red_black.c > CMakeFiles/yass.dir/src/red_black.c.i
 
 CMakeFiles/yass.dir/src/red_black.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yass.dir/src/red_black.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/User/Documents/GitHub/yass/src/red_black.c -o CMakeFiles/yass.dir/src/red_black.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/red_black.c -o CMakeFiles/yass.dir/src/red_black.c.s
 
 CMakeFiles/yass.dir/src/red_black.c.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/yass.dir/src/red_black.c.o.provides.build: CMakeFiles/yass.dir/src/re
 
 CMakeFiles/yass.dir/src/regroup.c.o: CMakeFiles/yass.dir/flags.make
 CMakeFiles/yass.dir/src/regroup.c.o: ../src/regroup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/yass.dir/src/regroup.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/regroup.c.o   -c /cygdrive/c/Users/User/Documents/GitHub/yass/src/regroup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/yass.dir/src/regroup.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/regroup.c.o   -c /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/regroup.c
 
 CMakeFiles/yass.dir/src/regroup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yass.dir/src/regroup.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/User/Documents/GitHub/yass/src/regroup.c > CMakeFiles/yass.dir/src/regroup.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/regroup.c > CMakeFiles/yass.dir/src/regroup.c.i
 
 CMakeFiles/yass.dir/src/regroup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yass.dir/src/regroup.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/User/Documents/GitHub/yass/src/regroup.c -o CMakeFiles/yass.dir/src/regroup.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/regroup.c -o CMakeFiles/yass.dir/src/regroup.c.s
 
 CMakeFiles/yass.dir/src/regroup.c.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/yass.dir/src/regroup.c.o.provides.build: CMakeFiles/yass.dir/src/regr
 
 CMakeFiles/yass.dir/src/threads.c.o: CMakeFiles/yass.dir/flags.make
 CMakeFiles/yass.dir/src/threads.c.o: ../src/threads.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/yass.dir/src/threads.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/threads.c.o   -c /cygdrive/c/Users/User/Documents/GitHub/yass/src/threads.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/yass.dir/src/threads.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/threads.c.o   -c /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/threads.c
 
 CMakeFiles/yass.dir/src/threads.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yass.dir/src/threads.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/User/Documents/GitHub/yass/src/threads.c > CMakeFiles/yass.dir/src/threads.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/threads.c > CMakeFiles/yass.dir/src/threads.c.i
 
 CMakeFiles/yass.dir/src/threads.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yass.dir/src/threads.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/User/Documents/GitHub/yass/src/threads.c -o CMakeFiles/yass.dir/src/threads.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/threads.c -o CMakeFiles/yass.dir/src/threads.c.s
 
 CMakeFiles/yass.dir/src/threads.c.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/yass.dir/src/threads.c.o.provides.build: CMakeFiles/yass.dir/src/thre
 
 CMakeFiles/yass.dir/src/tuple.c.o: CMakeFiles/yass.dir/flags.make
 CMakeFiles/yass.dir/src/tuple.c.o: ../src/tuple.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/yass.dir/src/tuple.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/tuple.c.o   -c /cygdrive/c/Users/User/Documents/GitHub/yass/src/tuple.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/yass.dir/src/tuple.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/tuple.c.o   -c /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/tuple.c
 
 CMakeFiles/yass.dir/src/tuple.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yass.dir/src/tuple.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/User/Documents/GitHub/yass/src/tuple.c > CMakeFiles/yass.dir/src/tuple.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/tuple.c > CMakeFiles/yass.dir/src/tuple.c.i
 
 CMakeFiles/yass.dir/src/tuple.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yass.dir/src/tuple.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/User/Documents/GitHub/yass/src/tuple.c -o CMakeFiles/yass.dir/src/tuple.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/tuple.c -o CMakeFiles/yass.dir/src/tuple.c.s
 
 CMakeFiles/yass.dir/src/tuple.c.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/yass.dir/src/tuple.c.o.provides.build: CMakeFiles/yass.dir/src/tuple.
 
 CMakeFiles/yass.dir/src/util.c.o: CMakeFiles/yass.dir/flags.make
 CMakeFiles/yass.dir/src/util.c.o: ../src/util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/yass.dir/src/util.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/util.c.o   -c /cygdrive/c/Users/User/Documents/GitHub/yass/src/util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/yass.dir/src/util.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yass.dir/src/util.c.o   -c /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/util.c
 
 CMakeFiles/yass.dir/src/util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yass.dir/src/util.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/User/Documents/GitHub/yass/src/util.c > CMakeFiles/yass.dir/src/util.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/util.c > CMakeFiles/yass.dir/src/util.c.i
 
 CMakeFiles/yass.dir/src/util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yass.dir/src/util.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/User/Documents/GitHub/yass/src/util.c -o CMakeFiles/yass.dir/src/util.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/util.c -o CMakeFiles/yass.dir/src/util.c.s
 
 CMakeFiles/yass.dir/src/util.c.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/yass.dir/src/util.c.o.provides.build: CMakeFiles/yass.dir/src/util.c.
 
 CMakeFiles/yass.dir/src/PyYASS.cpp.o: CMakeFiles/yass.dir/flags.make
 CMakeFiles/yass.dir/src/PyYASS.cpp.o: ../src/PyYASS.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/yass.dir/src/PyYASS.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yass.dir/src/PyYASS.cpp.o -c /cygdrive/c/Users/User/Documents/GitHub/yass/src/PyYASS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/yass.dir/src/PyYASS.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yass.dir/src/PyYASS.cpp.o -c /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/PyYASS.cpp
 
 CMakeFiles/yass.dir/src/PyYASS.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yass.dir/src/PyYASS.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/User/Documents/GitHub/yass/src/PyYASS.cpp > CMakeFiles/yass.dir/src/PyYASS.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/PyYASS.cpp > CMakeFiles/yass.dir/src/PyYASS.cpp.i
 
 CMakeFiles/yass.dir/src/PyYASS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yass.dir/src/PyYASS.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/User/Documents/GitHub/yass/src/PyYASS.cpp -o CMakeFiles/yass.dir/src/PyYASS.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Nan/Documents/GitHub/yass/src/PyYASS.cpp -o CMakeFiles/yass.dir/src/PyYASS.cpp.s
 
 CMakeFiles/yass.dir/src/PyYASS.cpp.o.requires:
 
@@ -481,7 +481,7 @@ yass.exe: CMakeFiles/yass.dir/src/util.c.o
 yass.exe: CMakeFiles/yass.dir/src/PyYASS.cpp.o
 yass.exe: CMakeFiles/yass.dir/build.make
 yass.exe: CMakeFiles/yass.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable yass.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable yass.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/yass.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -513,6 +513,6 @@ CMakeFiles/yass.dir/clean:
 .PHONY : CMakeFiles/yass.dir/clean
 
 CMakeFiles/yass.dir/depend:
-	cd /cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/User/Documents/GitHub/yass /cygdrive/c/Users/User/Documents/GitHub/yass /cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug /cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug /cygdrive/c/Users/User/Documents/GitHub/yass/cmake-build-debug/CMakeFiles/yass.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Nan/Documents/GitHub/yass /cygdrive/c/Users/Nan/Documents/GitHub/yass /cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug /cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug /cygdrive/c/Users/Nan/Documents/GitHub/yass/cmake-build-debug/CMakeFiles/yass.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/yass.dir/depend
 
