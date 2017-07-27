@@ -822,7 +822,7 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
                               long int *chunksize_text,
                               long int *chunkstrt_text,
                               Feature *f) {
-    fprintf(OUTSTREAM, "Multiple\n");
+    //fprintf(OUTSTREAM, "Multiple\n");
 
     /* used for chunk selection */
     long int i_base = 0;
@@ -904,6 +904,13 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
     memset(last_chunk_diag_used, 0x00, (LAST_CHUNK_DIAG_NB * sizeof(long int)));
     /* << */
 
+    //initialize for iterate tuple
+    tuplelist *tl_ = NULL, *tl_prev_ = NULL, *tl_last_;
+    tuple *t_ = NULL;
+
+    //volatile long int i_current = f->i_current;
+    tl_prev_ = tl_ = f->first_tl;
+    tl_last_ = f->last_tl;
 
     /* for each chunk element */
     for (f->i_chunk = 0; f->i_chunk < nbchunks_text; f->i_chunk++) {
@@ -1214,14 +1221,11 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
         */
 
         // try iterate through all tuples
+        fprintf(OUTSTREAM, "%s\t%s\t%ld\t", gp_chunkname_query[f->j_chunk],
+                gp_chunkname_text[f->i_chunk], f->reverse);
 
+        tl_ = tl_prev_ ->next;
 
-        tuplelist *tl_ = NULL, *tl_prev_ = NULL, *tl_last_;
-        tuple *t_ = NULL;
-
-        //volatile long int i_current = f->i_current;
-        tl_prev_ = tl_ = f->first_tl;
-        tl_last_ = f->last_tl;
 
         while (tl_ != NULL) {
             fprintf(OUTSTREAM, "\t");
@@ -1233,6 +1237,7 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
                         t_->occurrence,
                         t_->diagonal,
                         t_->leftsize);
+                tl_prev_ = tl_;
                 t_ = t_->next;
             }
 
