@@ -904,8 +904,14 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
     memset(last_chunk_diag_used, 0x00, (LAST_CHUNK_DIAG_NB * sizeof(long int)));
     /* << */
 
+    //initialize for iterate tuple
+    tuplelist *tl_1 = NULL, *tl_prev_1 = NULL, *tl_last_1;
+    tuple *t_1 = NULL;
 
-
+    //volatile long int i_current = f->i_current;
+    tl_prev_1 = tl_1 = f->first_tl;
+    tl_last_1 = f->last_tl;
+    //tl_1 = tl_prev_1 -> next;
 
     /* for each chunk element */
     for (f->i_chunk = 0; f->i_chunk < nbchunks_text; f->i_chunk++) {
@@ -1153,7 +1159,7 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
             }/* for each seed */
 
 
-
+            /*
             if (!(f->i_current % ALIGN_EVERY_NB_ITER)) {
 #ifdef TRACE
                 Display_Progress(f->i_current + i_base, (datasize_text), f);
@@ -1182,6 +1188,7 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
                 STATS_ADD_CLOCK(f, clock_align);
 
             }
+             */
         }/*end of  [3] (keysize_text loop)  */
 #ifdef TRACE
         Display_Progress(f->i_current + i_base, (datasize_text), f);
@@ -1211,22 +1218,11 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
         fprintf(OUTSTREAM, "%s\t%s\t%ld\t", gp_chunkname_query[f->j_chunk],
                 gp_chunkname_text[f->i_chunk], f->reverse);
 
-        //initialize for iterate tuple
-        tuplelist *tl_1 = NULL, *tl_prev_1 = NULL, *tl_last_1;
-        tuple *t_1 = NULL;
-
-        //volatile long int i_current = f->i_current;
-        tl_prev_1 = tl_1 = f->first_tl;
         tl_last_1 = f->last_tl;
-        long int number_of_tuples = 0;
 
-
-        //tl_1 = tl_prev_1 ->next;
-
-        while (tl_1 != NULL) {
+        while (tl_1 != tl_last_1) {
             fprintf(OUTSTREAM, "\t");
             t_1 = tl_1->first_tuple;
-            number_of_tuples = 0;
 
             while (t_1 != NULL) {
 
@@ -1234,20 +1230,12 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
                         t_1->occurrence,
                         t_1->diagonal,
                         t_1->leftsize);
-                number_of_tuples++;
+                //number_of_tuples++;
                 t_1 = t_1->next;
             }
 
-            if (number_of_tuples <= 0) {
-
-                //(2.0) The first list is always empty (do nothing
-                //and jump to the next list)
-                //nexttuplelist:
-                tl_prev_1 = tl_1;
-                tl_1 = tl_1->next;
-            } else{
-                //FreeTupleList(&tl_1, &tl_prev_1, &(tl_last_1));
-            }
+            tl_prev_1 = tl_1;
+            tl_1 = tl_1->next;
 
         }
 
