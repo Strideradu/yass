@@ -1215,14 +1215,17 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
          */
 
         // try iterate through all tuples
-        fprintf(OUTSTREAM, "%s\t%s\t%ld\t", gp_chunkname_query[f->j_chunk],
+        fprintf(OUTSTREAM, "%s\t%s\t%ld", gp_chunkname_query[f->j_chunk],
                 gp_chunkname_text[f->i_chunk], f->reverse);
 
         tl_last_1 = f->last_tl;
 
         while (tl_1 != tl_last_1) {
-            fprintf(OUTSTREAM, "\t");
+
             t_1 = tl_1->first_tuple;
+            if (t_1 != NULL){
+                fprintf(OUTSTREAM, "\t");
+            }
 
             while (t_1 != NULL) {
 
