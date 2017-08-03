@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/assemble.c" line="1220" />
+    <bookmark url="file://$PROJECT_DIR$/src/assemble.c" line="1224" />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
@@ -18,6 +18,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/assemble.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/assemble.c.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/yass.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/yass.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/001.out" afterPath="$PROJECT_DIR$/cmake-build-debug/001.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/yass.exe.stackdump" afterPath="$PROJECT_DIR$/cmake-build-debug/yass.exe.stackdump" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assemble.c" afterPath="$PROJECT_DIR$/src/assemble.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -66,8 +68,8 @@
       <file leaf-file-name="global_var.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/global_var.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1404">
-              <caret line="52" column="32" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="32" />
+            <state relative-caret-position="2835">
+              <caret line="105" column="16" lean-forward="false" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -86,8 +88,8 @@
       <file leaf-file-name="assemble.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/assemble.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="1217" column="39" lean-forward="false" selection-start-line="1217" selection-start-column="39" selection-end-line="1217" selection-end-column="39" />
+            <state relative-caret-position="225">
+              <caret line="1256" column="19" lean-forward="false" selection-start-line="1256" selection-start-column="19" selection-end-line="1256" selection-end-column="19" />
               <folding>
                 <element signature="e#6517#6683#0" expanded="true" />
                 <element signature="e#6977#7138#0" expanded="true" />
@@ -96,6 +98,16 @@
                 <element signature="e#9429#9496#0" expanded="true" />
                 <element signature="e#14941#14983#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="display.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/display.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8586">
+              <caret line="318" column="80" lean-forward="false" selection-start-line="318" selection-start-column="49" selection-end-line="318" selection-end-column="80" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,8 +137,8 @@
       <file leaf-file-name="align.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/align.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19035">
-              <caret line="705" column="27" lean-forward="false" selection-start-line="705" selection-start-column="16" selection-end-line="705" selection-end-column="29" />
+            <state relative-caret-position="18360">
+              <caret line="680" column="8" lean-forward="false" selection-start-line="680" selection-start-column="8" selection-end-line="688" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -443,7 +455,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration name="yass" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-p &quot;#########&quot; -i 20 -m 25 -d 6 missing_query_001.fasta missing_target_001.fasta -o 001.out" PASS_PARENT_ENVS_2="true" PROJECT_NAME="yass" TARGET_NAME="yass" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="yass" RUN_TARGET_NAME="yass">
+    <configuration name="yass" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-p &quot;#########&quot; -i 20 -m 25 -d 6 query_all.fasta query_all.fasta -o qury_all_0p75_0p2.out" PASS_PARENT_ENVS_2="true" PROJECT_NAME="yass" TARGET_NAME="yass" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="yass" RUN_TARGET_NAME="yass">
       <envs />
     </configuration>
     <list size="2">
@@ -483,12 +495,15 @@
       <workItem from="1501251092418" duration="3755000" />
       <workItem from="1501255866696" duration="5511000" />
       <workItem from="1501524932382" duration="4512000" />
-      <workItem from="1501548302971" duration="730000" />
+      <workItem from="1501548302971" duration="2517000" />
+      <workItem from="1501611814000" duration="364000" />
+      <workItem from="1501613570732" duration="10848000" />
+      <workItem from="1501788868967" duration="690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78129000" />
+    <option name="totallyTimeSpent" value="91818000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1402" extended-state="6" />
@@ -500,7 +515,7 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -523,24 +538,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/assemble.c</url>
-          <line>1222</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/assemble.c</url>
-          <line>1231</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/assemble.c</url>
-          <line>1229</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="43" />
+      <option name="time" value="45" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -869,25 +867,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/display.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="152" column="16" lean-forward="true" selection-start-line="152" selection-start-column="16" selection-end-line="153" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/kword.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18846">
           <caret line="698" column="9" lean-forward="false" selection-start-line="698" selection-start-column="9" selection-end-line="698" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/global_var.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="52" column="32" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -915,16 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tuple.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2592">
-          <caret line="96" column="16" lean-forward="false" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
-          <folding>
-            <element signature="e#2285#2291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32427">
@@ -936,18 +909,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/global_var.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2835">
+          <caret line="105" column="16" lean-forward="false" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/display.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8586">
+          <caret line="318" column="80" lean-forward="false" selection-start-line="318" selection-start-column="49" selection-end-line="318" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/align.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19035">
-          <caret line="705" column="27" lean-forward="false" selection-start-line="705" selection-start-column="16" selection-end-line="705" selection-end-column="29" />
+        <state relative-caret-position="18360">
+          <caret line="680" column="8" lean-forward="false" selection-start-line="680" selection-start-column="8" selection-end-line="688" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tuple.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2592">
+          <caret line="96" column="16" lean-forward="false" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
+          <folding>
+            <element signature="e#2285#2291#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assemble.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="1217" column="39" lean-forward="false" selection-start-line="1217" selection-start-column="39" selection-end-line="1217" selection-end-column="39" />
+        <state relative-caret-position="225">
+          <caret line="1256" column="19" lean-forward="false" selection-start-line="1256" selection-start-column="19" selection-end-line="1256" selection-end-column="19" />
           <folding>
             <element signature="e#6517#6683#0" expanded="true" />
             <element signature="e#6977#7138#0" expanded="true" />

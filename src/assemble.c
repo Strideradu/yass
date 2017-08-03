@@ -904,14 +904,7 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
     memset(last_chunk_diag_used, 0x00, (LAST_CHUNK_DIAG_NB * sizeof(long int)));
     /* << */
 
-    //initialize for iterate tuple
-    tuplelist *tl_1 = NULL, *tl_prev_1 = NULL, *tl_last_1;
-    tuple *t_1 = NULL;
 
-    //volatile long int i_current = f->i_current;
-    tl_prev_1 = tl_1 = f->first_tl;
-    tl_last_1 = f->last_tl;
-    //tl_1 = tl_prev_1 -> next;
 
     /* for each chunk element */
     for (f->i_chunk = 0; f->i_chunk < nbchunks_text; f->i_chunk++) {
@@ -1195,7 +1188,6 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
 #endif
 
 
-
         STATS_ADD_CLOCK(f, clock_chain);
 
 #ifdef DEBUG_ASSEMBLE
@@ -1215,15 +1207,31 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
          */
 
         // try iterate through all tuples
-        fprintf(OUTSTREAM, "%s\t%s\t%ld", gp_chunkname_query[f->j_chunk],
-                gp_chunkname_text[f->i_chunk], f->reverse);
+        fprintf(OUTSTREAM, "%s\t%ld\t", gp_chunkname_query[f->j_chunk],
+                gp_chunksize_query[f->j_chunk]);
+
+        fprintf(OUTSTREAM, "%s\t%ld\t%ld", gp_chunkname_text[f->i_chunk], gp_chunksize_text[f->i_chunk], f->reverse);
+
+        //initialize for iterate tuple
+        tuplelist *tl_1 = NULL, *tl_prev_1 = NULL, *tl_last_1;
+        tuple *t_1 = NULL;
+
+        //volatile long int i_current = f->i_current;
+        tl_prev_1 = tl_1 = f->first_tl;
+        tl_last_1 = f->last_tl;
+        //tl_1 = tl_prev_1 -> next;
+
 
         tl_last_1 = f->last_tl;
+        tl_1 = tl_prev_1->next;
 
-        while (tl_1 != tl_last_1) {
+        long int number_of_tuples;
+
+        while (tl_1 != NULL) {
 
             t_1 = tl_1->first_tuple;
-            if (t_1 != NULL){
+            number_of_tuples = 0;
+            if (t_1 != NULL) {
                 fprintf(OUTSTREAM, "\t");
             }
 
@@ -1233,16 +1241,32 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
                         t_1->occurrence,
                         t_1->diagonal,
                         t_1->leftsize);
-                //number_of_tuples++;
+                number_of_tuples++;
                 t_1 = t_1->next;
             }
+            /*
+            if(tl_1 == tl_last_1){
+                break;
+            }
+            */
 
-            tl_prev_1 = tl_1;
-            tl_1 = tl_1->next;
+            if (number_of_tuples <= 0) {
+
+                /* (2.0) The first list is always empty (do nothing
+                 * and jump to the next list)
+                 */
+                nexttuplelist:
+                tl_prev_1 = tl_1;
+                tl_1 = tl_1->next;
+            } else {
+                FreeTupleList(&tl_1, &tl_prev_1, &(f->last_tl));
+            }
+
 
         }
 
         fprintf(OUTSTREAM, "\n");
+
 
         /*
         AlignAndFree(
@@ -1251,10 +1275,8 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
                 1,
                 f);
         */
+
         STATS_ADD_CLOCK(f, clock_align);
-
-
-
 
 
     }/*end of  [4] (chunk loop) */
@@ -1275,8 +1297,6 @@ long int MultiAssemble_Double(char *data_query, long int datasize_query,
 #ifdef CACHE
     FREE(last_tuple_pos_with_diag_hash ,((1 + HASH_DIAG(MEMOPT_TABSIZE)) * sizeof(long int));
 #endif
-
-
 
 
     FREE_TAB(last_tuple_pos_with_diag, sizeof(long int));
