@@ -109,13 +109,13 @@ extern char *gp_text;
 extern long int gp_textsize;
 
 /* first file chunks */
-extern long int     gp_nbchunks_query;
+extern long int     gp_nbchunks_query;  // number of reads in fasta
 extern char ** gp_chunkname_query;
 extern long int   * gp_chunksize_query;
 extern long int   * gp_chunkstrt_query;
 
 /* second file chunks */
-extern long int     gp_nbchunks_text;
+extern long int     gp_nbchunks_text;   // number of reads in fasta
 extern char ** gp_chunkname_text;
 extern long int   * gp_chunksize_text;
 extern long int   * gp_chunkstrt_text;

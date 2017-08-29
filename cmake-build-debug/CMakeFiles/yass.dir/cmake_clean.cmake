@@ -16,8 +16,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/yass.dir/src/util.c.o"
   "CMakeFiles/yass.dir/src/PyYASS.cpp.o"
   "yass.pdb"
-  "yass.exe"
-  "libyass.dll.a"
+  "yass"
 )
 
 # Per-language clean rules from dependency scanning.
