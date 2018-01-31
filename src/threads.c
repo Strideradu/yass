@@ -29,19 +29,18 @@
 #include "threads.h"
 #include "prdyn.h"
 
-Feature * gv_feature[MAX_QUERY_CHUNK_THREADS][2];
+Feature *gv_feature[MAX_QUERY_CHUNK_THREADS][2];
 
 /*
  *  Affichage du grouping
  */
 
-int             regrouping_begin = 0;
-int             regrouping_end   = 0;
-int             filtering_begin  = 0;
-int             filtering_end    = 0;
-int             sorting_begin    = 0;
-int             sorting_end      = 0;
-
+int regrouping_begin = 0;
+int regrouping_end = 0;
+int filtering_begin = 0;
+int filtering_end = 0;
+int sorting_begin = 0;
+int sorting_end = 0;
 
 
 #ifdef THREAD_QUERY_CHUNK
@@ -58,7 +57,6 @@ pthread_t gv_threads[MAX_QUERY_CHUNK_THREADS];
 int merge_ma_mutex = 0;
 int query_chunk_mutex = 0;
 #endif
-
 
 
 #ifdef THREAD_FORWARD_REVERSE
@@ -86,94 +84,91 @@ pthread_mutex_t sorting_mutex_end     ;
 #else
 
 /* Mono Proc*/
-int regrouping_mutex_begin      = 0;
-int regrouping_mutex_end        = 0;
-int filtering_mutex_begin       = 0;
-int filtering_mutex_end         = 0;
-int sorting_mutex_begin         = 0;
-int sorting_mutex_end           = 0;
+int regrouping_mutex_begin = 0;
+int regrouping_mutex_end = 0;
+int filtering_mutex_begin = 0;
+int filtering_mutex_end = 0;
+int sorting_mutex_begin = 0;
+int sorting_mutex_end = 0;
 #endif
 
-void AllocInitFeature(Feature ** p_feature){
+void AllocInitFeature(Feature **p_feature) {
 
-  Feature * feature = (Feature *) MALLOC(sizeof(Feature));
-  ASSERT(feature, InitFeature);
+    Feature *feature = (Feature *) MALLOC(sizeof(Feature));
+    ASSERT(feature, InitFeature);
 
-  feature->first_MA    = NULL;
-  feature->last_MA     = NULL;
+    feature->first_MA = NULL;
+    feature->last_MA = NULL;
 
-  feature->i_current   = 0;
-  feature->i_chunk     = 0;
+    feature->i_current = 0;
+    feature->i_chunk = 0;
 
-  feature->left_correction = 0;
+    feature->left_correction = 0;
 
-  feature->MAminscore      = 0;
+    feature->MAminscore = 0;
 
 #ifdef STATS
-  feature->clock_pre        = 0;
-  feature->clock_align      = 0;
-  feature->clock_chain      = 0;
-  feature->clock_post       = 0;
-  feature->nb_keys_removed  = 0;
-  feature->nb_seeds         = 0;
-  feature->nb_single_tests  = 0;
-  feature->nb_single_hits   = 0;
-  feature->nb_chains_tested = 0;
-  feature->nb_chains_built  = 0;
-  feature->nb_ma            = 0;
-  feature->nb_postprocessed_grouping_tests = 0;
-  feature->nb_postprocessed_ma             = 0;
-  feature->nb_postprocessed_grouping_links = 0;
+    feature->clock_pre = 0;
+    feature->clock_align = 0;
+    feature->clock_chain = 0;
+    feature->clock_post = 0;
+    feature->nb_keys_removed = 0;
+    feature->nb_seeds = 0;
+    feature->nb_single_tests = 0;
+    feature->nb_single_hits = 0;
+    feature->nb_chains_tested = 0;
+    feature->nb_chains_built = 0;
+    feature->nb_ma = 0;
+    feature->nb_postprocessed_grouping_tests = 0;
+    feature->nb_postprocessed_ma = 0;
+    feature->nb_postprocessed_grouping_links = 0;
 #endif
 
 #ifdef THREAD_FORWARD_REVERSE
-  feature->thread_assemble = 0;
+    feature->thread_assemble = 0;
 #endif
 
 #ifdef THREAD_ASSEMBLE_ALIGN
-  feature->thread_align    = 0;
+    feature->thread_align    = 0;
 #endif
 
-  feature->last_point      = 1;
+    feature->last_point = 1;
 
-  /* mem allocations (separate paging of features ) */
-  initialise_alignment(4 * MEGA, feature);
-  CreateCountMA(feature);
-  feature->nb_pair_of_triplets = lint_directtable(64,64);
-  (*p_feature) = feature;
+    /* mem allocations (separate paging of features ) */
+    initialise_alignment(4 * MEGA, feature);
+    CreateCountMA(feature);
+    feature->nb_pair_of_triplets = lint_directtable(64, 64);
+    (*p_feature) = feature;
 }
 
 
-
-long int CreateCountMA(Feature * f)
-{
-  f->MAcount = (long int *) MALLOC(sizeof(long int)*8*sizeof(long int));
-  ASSERT(f->MAcount, CreateCountMA);
-  memset(f->MAcount, '\0', sizeof(long int)*8*sizeof(long int));
-  return 0;
+long int CreateCountMA(Feature *f) {
+    f->MAcount = (long int *) MALLOC(sizeof(long int) * 8 * sizeof(long int));
+    ASSERT(f->MAcount, CreateCountMA);
+    memset(f->MAcount, '\0', sizeof(long int) * 8 * sizeof(long int));
+    return 0;
 }
 
 
-long int MinScoreOnCountMA(Feature * f, long int score)
-{
-  long int i  = 0;
-  long int pi = 1;
-  while(score > 0){
-    score >>= 1;
-    i++;
-    pi    <<= 1;
-  }
+long int MinScoreOnCountMA(Feature *f, long int score) {
+    long int i = 0;
+    long int pi = 1;
+    while (score > 0) {
+        score >>= 1;
+        i++;
+        pi <<= 1;
+    }
 
-  f->MAcount[i]++;
+    f->MAcount[i]++;
 
-  if (f->MAcount[i] > gp_nbmaxlines &&  f->MAminscore < pi-1){
-    fprintf(stderr,"\n");
-    _WARNING("-O limit reached => increasing score threshold");
-    f->MAminscore = pi-1;
-    fprintf(stderr,"the score threshold is now = %ld\n",pi-1);
-  }
+    if (f->MAcount[i] > gp_nbmaxlines && f->MAminscore < pi - 1) {
+        fprintf(stderr, "\n");
+        _WARNING("-O limit reached => increasing score threshold");
+        f->MAminscore = pi - 1;
+        fprintf(stderr, "the score threshold is now = %ld\n", pi - 1);
+    }
 
-  return 0;
+    return 0;
 }
 
 

@@ -15,32 +15,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36a5a95b-b6f6-4cfa-98ee-b73cb752df8f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeRCCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/a.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.exe" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_C.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_CXX.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/PyYASS.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/PyYASS.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/align.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/align.c.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/assemble.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/assemble.c.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/avl.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/avl.c.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/display.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/display.c.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/global_var.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/global_var.c.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/kword.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/kword.c.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/list.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/list.c.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/main.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/main.c.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/prdyn.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/prdyn.c.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/proba.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/proba.c.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/red_black.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/red_black.c.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/regroup.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/regroup.c.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/threads.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/threads.c.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/tuple.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/tuple.c.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/util.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/util.c.o" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/C.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/PyYASS.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/align.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/assemble.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/avl.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/display.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/global_var.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/kword.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/list.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/main.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/prdyn.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/proba.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/red_black.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/regroup.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/threads.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/tuple.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/src/util.c.o" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCCompiler.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeSystem.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeSystem.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
@@ -49,18 +44,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/C.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/CXX.includecache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/DependInfo.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yass.dir/depend.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/yass.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/yass.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/global_var.h" afterPath="$PROJECT_DIR$/src/global_var.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/global_var.c" afterPath="$PROJECT_DIR$/src/global_var.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kword.h" afterPath="$PROJECT_DIR$/src/kword.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/regroup.c" afterPath="$PROJECT_DIR$/src/regroup.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/threads.c" afterPath="$PROJECT_DIR$/src/threads.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/threads.h" afterPath="$PROJECT_DIR$/src/threads.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tuple.c" afterPath="$PROJECT_DIR$/src/tuple.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,22 +70,14 @@
       <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17334">
-              <caret line="963" column="4" lean-forward="false" selection-start-line="963" selection-start-column="4" selection-end-line="963" selection-end-column="4" />
+            <state relative-caret-position="14400">
+              <caret line="800" column="8" lean-forward="false" selection-start-line="800" selection-start-column="8" selection-end-line="800" selection-end-column="8" />
               <folding>
                 <element signature="e#33685#33799#0" expanded="true" />
+                <element signature="e#39774#39999#0" expanded="true" />
+                <element signature="e#40925#41659#0" expanded="true" />
                 <element signature="e#43071#43322#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kword.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kword.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9918">
-              <caret line="551" column="25" lean-forward="false" selection-start-line="551" selection-start-column="16" selection-end-line="551" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -99,17 +86,67 @@
         <entry file="file://$PROJECT_DIR$/src/global_var.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="828">
-              <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="27" />
+              <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global_var.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/global_var.c">
+      <file leaf-file-name="avl.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/avl.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1548">
-              <caret line="86" column="12" lean-forward="false" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="regroup.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/regroup.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="912">
+              <caret line="865" column="38" lean-forward="true" selection-start-line="865" selection-start-column="26" selection-end-line="865" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="regroup.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/regroup.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1026">
+              <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="threads.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/threads.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kword.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kword.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12564">
+              <caret line="698" column="9" lean-forward="false" selection-start-line="698" selection-start-column="9" selection-end-line="698" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="threads.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/threads.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -118,8 +155,8 @@
       <file leaf-file-name="assemble.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assemble.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="981" column="29" lean-forward="false" selection-start-line="981" selection-start-column="29" selection-end-line="981" selection-end-column="29" />
+            <state relative-caret-position="14724">
+              <caret line="818" column="27" lean-forward="true" selection-start-line="818" selection-start-column="9" selection-end-line="818" selection-end-column="29" />
               <folding>
                 <element signature="e#6517#6683#0" expanded="true" />
                 <element signature="e#6977#7138#0" expanded="true" />
@@ -127,58 +164,17 @@
                 <element signature="e#9170#9237#0" expanded="true" />
                 <element signature="e#9429#9496#0" expanded="true" />
                 <element signature="e#14941#14983#0" expanded="true" />
+                <element signature="e#36085#37269#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qury_00vs01_0p85_0p12.out" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/qury_00vs01_0p85_0p12.out">
+      <file leaf-file-name="kword.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kword.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-216">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="display.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/display.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5724">
-              <caret line="318" column="80" lean-forward="false" selection-start-line="318" selection-start-column="49" selection-end-line="318" selection-end-column="80" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tuple.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tuple.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6390">
-              <caret line="355" column="104" lean-forward="false" selection-start-line="355" selection-start-column="104" selection-end-line="355" selection-end-column="104" />
-              <folding>
-                <element signature="e#2285#2291#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="threads.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/threads.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7542">
-              <caret line="419" column="8" lean-forward="false" selection-start-line="419" selection-start-column="8" selection-end-line="419" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="align.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/align.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12240">
-              <caret line="680" column="8" lean-forward="false" selection-start-line="680" selection-start-column="8" selection-end-line="688" selection-end-column="16" />
+            <state relative-caret-position="630">
+              <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -217,7 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/kword.c" />
         <option value="$PROJECT_DIR$/src/display.c" />
         <option value="$PROJECT_DIR$/src/assemble.h" />
         <option value="$PROJECT_DIR$/cmake-build-debug/yass_manual" />
@@ -229,8 +224,15 @@
         <option value="$PROJECT_DIR$/cmake-build-debug/001.out" />
         <option value="$PROJECT_DIR$/src/align.c" />
         <option value="$PROJECT_DIR$/src/main.c" />
-        <option value="$PROJECT_DIR$/src/assemble.c" />
         <option value="$PROJECT_DIR$/src/global_var.h" />
+        <option value="$PROJECT_DIR$/src/tuple.c" />
+        <option value="$PROJECT_DIR$/src/threads.h" />
+        <option value="$PROJECT_DIR$/src/global_var.c" />
+        <option value="$PROJECT_DIR$/src/kword.c" />
+        <option value="$PROJECT_DIR$/src/threads.c" />
+        <option value="$PROJECT_DIR$/src/assemble.c" />
+        <option value="$PROJECT_DIR$/src/regroup.c" />
+        <option value="$PROJECT_DIR$/src/kword.h" />
       </list>
     </option>
   </component>
@@ -268,6 +270,11 @@
             <path>
               <item name="yass" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="yass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yass" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="yass" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yass" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
@@ -543,11 +550,13 @@
       <workItem from="1501788868967" duration="690000" />
       <workItem from="1503599928336" duration="1593000" />
       <workItem from="1504028586370" duration="79000" />
+      <workItem from="1516641702576" duration="4875000" />
+      <workItem from="1517424945351" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93490000" />
+    <option name="totallyTimeSpent" value="98373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1857" height="1092" extended-state="6" />
@@ -555,17 +564,17 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21185984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -587,45 +596,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/align.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16443">
-          <caret line="609" column="9" lean-forward="false" selection-start-line="609" selection-start-column="9" selection-end-line="609" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21087">
-          <caret line="781" column="28" lean-forward="false" selection-start-line="781" selection-start-column="16" selection-end-line="781" selection-end-column="31" />
-          <folding>
-            <element signature="e#33685#33799#0" expanded="true" />
-            <element signature="e#43071#43322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kword.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20520">
-          <caret line="760" column="17" lean-forward="true" selection-start-line="760" selection-start-column="17" selection-end-line="760" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/proba.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2322">
-          <caret line="86" column="42" lean-forward="false" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/global_var.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2241">
@@ -651,6 +621,7 @@
             <element signature="e#9170#9237#0" expanded="true" />
             <element signature="e#9429#9496#0" expanded="true" />
             <element signature="e#14941#14983#0" expanded="true" />
+            <element signature="e#36085#37269#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -675,6 +646,8 @@
           <caret line="781" column="28" lean-forward="false" selection-start-line="781" selection-start-column="16" selection-end-line="781" selection-end-column="31" />
           <folding>
             <element signature="e#33685#33799#0" expanded="true" />
+            <element signature="e#39774#39999#0" expanded="true" />
+            <element signature="e#40925#41659#0" expanded="true" />
             <element signature="e#43071#43322#0" expanded="true" />
           </folding>
         </state>
@@ -691,6 +664,7 @@
             <element signature="e#9170#9237#0" expanded="true" />
             <element signature="e#9429#9496#0" expanded="true" />
             <element signature="e#14941#14983#0" expanded="true" />
+            <element signature="e#36085#37269#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -743,6 +717,8 @@
           <caret line="781" column="28" lean-forward="true" selection-start-line="781" selection-start-column="16" selection-end-line="781" selection-end-column="31" />
           <folding>
             <element signature="e#33685#33799#0" expanded="true" />
+            <element signature="e#39774#39999#0" expanded="true" />
+            <element signature="e#40925#41659#0" expanded="true" />
             <element signature="e#43071#43322#0" expanded="true" />
           </folding>
         </state>
@@ -759,6 +735,7 @@
             <element signature="e#9170#9237#0" expanded="true" />
             <element signature="e#9429#9496#0" expanded="true" />
             <element signature="e#14941#14983#0" expanded="true" />
+            <element signature="e#36085#37269#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -889,21 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/regroup.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15516">
-          <caret line="862" column="5" lean-forward="false" selection-start-line="862" selection-start-column="5" selection-end-line="862" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/global_var.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1548">
-          <caret line="86" column="12" lean-forward="false" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/001.out">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -911,78 +873,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/display.c">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/qury_00_0p85_0p12.out" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/qury_00vs01_0p85_0p12.out" />
+    <entry file="file://$PROJECT_DIR$/src/tuple.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5724">
-          <caret line="318" column="80" lean-forward="false" selection-start-line="318" selection-start-column="49" selection-end-line="318" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/qury_00_0p85_0p12.out">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-8286">
+          <caret line="364" column="53" lean-forward="false" selection-start-line="364" selection-start-column="53" selection-end-line="364" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/align.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12240">
+        <state relative-caret-position="2424">
           <caret line="680" column="8" lean-forward="false" selection-start-line="680" selection-start-column="8" selection-end-line="688" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/display.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5178">
+          <caret line="318" column="80" lean-forward="false" selection-start-line="318" selection-start-column="49" selection-end-line="318" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/global_var.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2310">
+          <caret line="86" column="9" lean-forward="false" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/list.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6642">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/avl.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/threads.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/threads.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7542">
-          <caret line="419" column="8" lean-forward="false" selection-start-line="419" selection-start-column="8" selection-end-line="419" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tuple.c">
+    <entry file="file://$PROJECT_DIR$/src/regroup.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6390">
-          <caret line="355" column="104" lean-forward="false" selection-start-line="355" selection-start-column="104" selection-end-line="355" selection-end-column="104" />
-          <folding>
-            <element signature="e#2285#2291#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1026">
+          <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/global_var.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
-          <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="27" />
+          <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="28" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17334">
-          <caret line="963" column="4" lean-forward="false" selection-start-line="963" selection-start-column="4" selection-end-line="963" selection-end-column="4" />
-          <folding>
-            <element signature="e#33685#33799#0" expanded="true" />
-            <element signature="e#43071#43322#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kword.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9918">
-          <caret line="551" column="25" lean-forward="false" selection-start-line="551" selection-start-column="16" selection-end-line="551" selection-end-column="25" />
+        <state relative-caret-position="12564">
+          <caret line="698" column="9" lean-forward="false" selection-start-line="698" selection-start-column="9" selection-end-line="698" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kword.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assemble.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="981" column="29" lean-forward="false" selection-start-line="981" selection-start-column="29" selection-end-line="981" selection-end-column="29" />
+        <state relative-caret-position="14724">
+          <caret line="818" column="27" lean-forward="true" selection-start-line="818" selection-start-column="9" selection-end-line="818" selection-end-column="29" />
           <folding>
             <element signature="e#6517#6683#0" expanded="true" />
             <element signature="e#6977#7138#0" expanded="true" />
@@ -990,14 +977,28 @@
             <element signature="e#9170#9237#0" expanded="true" />
             <element signature="e#9429#9496#0" expanded="true" />
             <element signature="e#14941#14983#0" expanded="true" />
+            <element signature="e#36085#37269#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/qury_00vs01_0p85_0p12.out">
+    <entry file="file://$PROJECT_DIR$/src/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="14400">
+          <caret line="800" column="8" lean-forward="false" selection-start-line="800" selection-start-column="8" selection-end-line="800" selection-end-column="8" />
+          <folding>
+            <element signature="e#33685#33799#0" expanded="true" />
+            <element signature="e#39774#39999#0" expanded="true" />
+            <element signature="e#40925#41659#0" expanded="true" />
+            <element signature="e#43071#43322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regroup.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="865" column="38" lean-forward="true" selection-start-line="865" selection-start-column="26" selection-end-line="865" selection-end-column="38" />
           <folding />
         </state>
       </provider>

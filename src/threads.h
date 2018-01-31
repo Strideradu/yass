@@ -24,6 +24,7 @@
 
 #ifndef __THREADS_H_
 #define __THREADS_H_
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -49,7 +50,6 @@
 #endif
 
 
-
 #ifdef THREAD
 #if defined(WIN32) || defined(WIN64)
 #include <windows.h>
@@ -59,119 +59,119 @@
 #endif
 
 
-
 #ifdef CHOOSERBTREE
 #include "red_black.h"
 #else
 #ifdef CHOOSEAVLTREE
+
 #include "avl.h"
+
 #else
 #error No tree definition : uncomment either "CHOOSERBTREE" or "CHOOSEAVLTREE" in the "util.h" file
 #endif
 #endif
 
 
-
 /*
  * forward-backward thread features
  */
 typedef struct _FEATURE_ {
-  char * chunk_query;
-  long int chunk_query_size;
-  long int    reverse;     /* on the complementary strain */
-  long int    left_correction;
-  long int  * buffer01;    /* buffer for prdyn */
-  long int    last_point;  /* count the last dot displayed */
-  long int  * MAcount;     /* count number of MA with score 2^i <= 2^(i+1) */
-  long int    MAminscore;  /* minimal score to be reached */
+    char *chunk_query;
+    long int chunk_query_size;
+    long int reverse;     /* on the complementary strain */
+    long int left_correction;
+    long int *buffer01;    /* buffer for prdyn */
+    long int last_point;  /* count the last dot displayed */
+    long int *MAcount;     /* count number of MA with score 2^i <= 2^(i+1) */
+    long int MAminscore;  /* minimal score to be reached */
 
-  tuplelist *first_tl;
-  tuplelist *last_tl;
+    tuplelist *first_tl;
+    tuplelist *last_tl;
 
-  MA *first_MA;
-  MA *last_MA;
+    MA *first_MA;
+    MA *last_MA;
 
-  volatile long int i_current; /* position on the current chunk */
-  long int i_chunk;   /* current chunk number */
-  long int j_chunk;   /* current query chunk number */
+    volatile long int i_current; /* position on the current chunk */
+    long int i_chunk;   /* current chunk number */
+    long int j_chunk;   /* current query chunk number */
 
 #ifdef THREAD_FORWARD_REVERSE
 #if defined(WIN32) || defined(WIN64)
-  HANDLE    thread_assemble;
+    HANDLE    thread_assemble;
 #else
-  pthread_t thread_assemble;
+    pthread_t thread_assemble;
 #endif
 #endif
 
 #ifdef THREAD_ASSEMBLE_ALIGN
 #if defined(WIN32) || defined(WIN64)
- HANDLE    thread_align;
+    HANDLE    thread_align;
 #else
- pthread_t thread_align;
+    pthread_t thread_align;
 #endif
 #endif
 
-  /* B) Statistics */
+    /* B) Statistics */
 #ifdef STATS
-  clock_t last_clock;  /* lask clock memorized by the thread */
+    clock_t last_clock;  /* lask clock memorized by the thread */
 
-  /* a) time */
-  clock_t clock_pre;
-  clock_t clock_chain;
-  clock_t clock_align;
-  clock_t clock_post;
+    /* a) time */
+    clock_t clock_pre;
+    clock_t clock_chain;
+    clock_t clock_align;
+    clock_t clock_post;
 
-  /* b) numbers */
+    /* b) numbers */
 
-  /* b.1) pre-process */
-  long int    nb_keys_removed;
-  /* b.2) assemble */
-  long int    nb_seeds;
-  long int    nb_single_tests;
-  long int    nb_single_hits;
-  long int    nb_chains_tested;
-  long int    nb_chains_built;
-  /* b.3) align */
-  long int    nb_ma;
-  /* b.4) post-process */
-  long int    nb_postprocessed_grouping_tests;
-  long int    nb_postprocessed_ma;
-  long int    nb_postprocessed_grouping_links;
+    /* b.1) pre-process */
+    long int nb_keys_removed;
+    /* b.2) assemble */
+    long int nb_seeds;
+    long int nb_single_tests;
+    long int nb_single_hits;
+    long int nb_chains_tested;
+    long int nb_chains_built;
+    /* b.3) align */
+    long int nb_ma;
+    /* b.4) post-process */
+    long int nb_postprocessed_grouping_tests;
+    long int nb_postprocessed_ma;
+    long int nb_postprocessed_grouping_links;
 #endif
 
-  /*
-   * grouping variables
-   */
+    /*
+     * grouping variables
+     */
 
-  /* The windows size used to regroup aligments */
-  int windows;
-  /* The current position (start of the window)*/
-  int win_position;
+    /* The windows size used to regroup aligments */
+    int windows;
+    /* The current position (start of the window)*/
+    int win_position;
 
-  /* The global queue of MA, ordered by right pos end*/
-  struct _queue_MA Q;
+    /* The global queue of MA, ordered by right pos end*/
+    struct _queue_MA Q;
 
-  /* We use a tree which can be a red black tree or an avl tree*/
+    /* We use a tree which can be a red black tree or an avl tree*/
 #ifdef CHOOSERBTREE
-  struct _rb_tree T;
+    struct _rb_tree T;
 #else
 #ifdef CHOOSEAVLTREE
-  struct _avl_tree T;
+    struct _avl_tree T;
 #else
 #error No tree definition : uncomment either "CHOOSERBTREE" or "CHOOSEAVLTREE" inside the "util.h" file
 #endif
 #endif
 
-  /* used by complexity filters : triplet counters */
-  long int nb_triplet_count1[64];
-  long int nb_triplet_count2[64];
-  long int nb_non_mutated_triplet_count[64];
-  long int ** nb_pair_of_triplets;
+    /* used by complexity filters : triplet counters */
+    long int nb_triplet_count1[64];
+    long int nb_triplet_count2[64];
+    long int nb_non_mutated_triplet_count[64];
+    long int **nb_pair_of_triplets;
 
 } Feature;
 
 
-extern Feature * gv_feature[MAX_QUERY_CHUNK_THREADS][2];
+extern Feature *gv_feature[MAX_QUERY_CHUNK_THREADS][2];
 
 /*********************
  *
@@ -201,7 +201,7 @@ if ((thread=CreateThread(NULL,0,function, (PVOID) parameters,0, (DWORD *)&gv_thr
    }
 #endif
 #else
-#define CREATE_THREAD(thread,function,parameters)    { function(parameters); }
+#define CREATE_THREAD(thread, function, parameters)    { function(parameters); }
 #endif
 
 /*
@@ -265,9 +265,9 @@ extern pthread_mutex_t query_chunk_mutex     ;
 
 #else
 /* Mono cpu */
-extern int merge_ma_mutex     ;
-extern int query_chunk_mutex  ;
-#define INIT_QUERY_MUTEX()    ; 
+extern int merge_ma_mutex;
+extern int query_chunk_mutex;
+#define INIT_QUERY_MUTEX()    ;
 #define LOCK(NAMEMUTEX)       ;
 #define UNLOCK(NAMEMUTEX)     ;
 
@@ -278,12 +278,12 @@ extern int query_chunk_mutex  ;
  *  Print
  */
 
-extern int             regrouping_begin ;
-extern int             regrouping_end   ;
-extern int             filtering_begin  ;
-extern int             filtering_end    ;
-extern int             sorting_begin    ;
-extern int             sorting_end      ;
+extern int regrouping_begin;
+extern int regrouping_end;
+extern int filtering_begin;
+extern int filtering_end;
+extern int sorting_begin;
+extern int sorting_end;
 
 #ifdef THREAD_FORWARD_REVERSE
 #if defined(WIN32) || defined(WIN64)
@@ -367,23 +367,23 @@ extern pthread_mutex_t sorting_mutex_end     ;
 
 /* Mono cpu */
 extern int regrouping_mutex_begin;
-extern int regrouping_mutex_end  ;
+extern int regrouping_mutex_end;
 extern int filtering_mutex_begin;
-extern int filtering_mutex_end  ;
+extern int filtering_mutex_end;
 extern int sorting_mutex_begin;
-extern int sorting_mutex_end  ;
+extern int sorting_mutex_end;
 
 
 #define INIT_MUTEX()  ;
 
-#define DISPLAY_BEGIN(NAMEMUT,NOMVAR,STRING) {                            \
+#define DISPLAY_BEGIN(NAMEMUT, NOMVAR, STRING) {                            \
   if (gp_selection_fasta) {                                               \
     NOMVAR = NOMVAR + 1;                                                  \
     if((NOMVAR)==2){fprintf(stderr,"%s",(STRING));fflush(NULL);}          \
   }                                                                       \
 }
 
-#define DISPLAY_END(NAMEMUT,NOMVAR) {                                     \
+#define DISPLAY_END(NAMEMUT, NOMVAR) {                                     \
     if (gp_selection_fasta) {                                             \
       NOMVAR++;                                                           \
       if(NOMVAR==2) {fprintf(stderr,"finished\n");fflush(NULL);}          \
@@ -392,16 +392,14 @@ extern int sorting_mutex_end  ;
 
 #endif
 
-void AllocInitFeature(Feature ** p_feature);
+void AllocInitFeature(Feature **p_feature);
 
-long int CreateCountMA(Feature * f);
+long int CreateCountMA(Feature *f);
 
-long int MinScoreOnCountMA(Feature * f, long int score);
-
-
+long int MinScoreOnCountMA(Feature *f, long int score);
 
 
-#define RESETFEATURE(f,query_chunk_minscore,query_chunk_data,query_chunk_size,query_chunk_reverse,query_chunk_nb) { \
+#define RESETFEATURE(f, query_chunk_minscore, query_chunk_data, query_chunk_size, query_chunk_reverse, query_chunk_nb) { \
       (f)->first_MA         = NULL;                                                                                 \
       (f)->last_MA          = NULL;                                                                                 \
       (f)->i_current        = 0;                                                                                    \
@@ -417,7 +415,7 @@ long int MinScoreOnCountMA(Feature * f, long int score);
 
 #ifdef STATS
 
-#define STATS_ADD_CLOCK(f,variable)             { \
+#define STATS_ADD_CLOCK(f, variable)             { \
    clock_t _current_clock = clock();              \
    f->variable  += _current_clock - f->last_clock;\
    f->last_clock = _current_clock;                \

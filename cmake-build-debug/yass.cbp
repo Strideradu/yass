@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/dunan/Research/yass/cmake-build-debug"/>
+				<Option working_dir="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/dunan/Research/yass/cmake-build-debug"/>
+				<Option working_dir="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/dunan/Research/yass/cmake-build-debug"/>
+				<Option working_dir="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="yass">
-				<Option output="/home/dunan/Research/yass/cmake-build-debug/yass" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dunan/Research/yass/cmake-build-debug"/>
+				<Option output="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/yass" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 yass"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 yass"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="yass/fast">
-				<Option output="/home/dunan/Research/yass/cmake-build-debug/yass" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dunan/Research/yass/cmake-build-debug"/>
+				<Option output="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/yass" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,113 +77,113 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 yass/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dunan/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 yass/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/dunan/Research/yass/src/PyYASS.cpp">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/PyYASS.cpp">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/align.c">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/align.c">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/align.h">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/align.h">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/assemble.c">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/assemble.c">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/assemble.h">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/assemble.h">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/avl.c">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/avl.c">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/avl.h">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/avl.h">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/cover.pl">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/cover.pl">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/display.c">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/display.c">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/display.h">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/display.h">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/global_var.c">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/global_var.c">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/global_var.h">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/global_var.h">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/kword.c">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/kword.c">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/kword.h">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/kword.h">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/list.c">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/list.c">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/list.h">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/list.h">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/main.c">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/main.c">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/parse_blout.pl">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/parse_blout.pl">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/prdyn.c">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/prdyn.c">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/prdyn.h">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/prdyn.h">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/proba.c">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/proba.c">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/proba.h">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/proba.h">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/red_black.c">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/red_black.c">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/red_black.h">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/red_black.h">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/regroup.c">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/regroup.c">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/regroup.h">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/regroup.h">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/threads.c">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/threads.c">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/threads.h">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/threads.h">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/tuple.c">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/tuple.c">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/tuple.h">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/tuple.h">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/util.c">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/util.c">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/util.h">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/util.h">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/src/yass2blast.pl">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/src/yass2blast.pl">
 			<Option target="yass"/>
 		</Unit>
-		<Unit filename="/home/dunan/Research/yass/CMakeLists.txt">
+		<Unit filename="/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

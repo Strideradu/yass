@@ -1,4 +1,4 @@
-# Install script for directory: /home/dunan/Research/yass
+# Install script for directory: /media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dunan/Research/yass/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/dunan/ef089416-b27e-48f2-a356-0a20872b34c4/Research/yass/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
